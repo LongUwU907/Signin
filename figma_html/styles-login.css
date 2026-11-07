@@ -187,6 +187,9 @@ body {
 {
   box-sizing: border-box;
 }
+.images-mobile {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .social-login {
@@ -200,5 +203,8 @@ body {
   }
   .login-container{
     flex-direction: column;
+  }
+  .images-mobile {
+  display: block;
   }
 }
