@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background: #f3f4f6;
   color: #1c2840;
   font-family: system-ui, sans-serif;
   display: flex;
@@ -161,3 +160,21 @@ body {
 a:hover {
   text-decoration: underline;
 }
+{
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .social-login {
+    flex-direction: column;
+  }
+  .images {
+    display: none;
+  }
+  .content{
+    padding: 20px;
+  }
+  .signup{
+    flex-direction: column;
+  }
+}
+
